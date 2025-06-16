@@ -1,36 +1,44 @@
-# movie-catalog
+# Movie-Catalog
+Проект преднозначен для сдачи контрольной точки преподователю.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Технологии
+- [Vue](https://vuejs.org)
 
-## Recommended IDE Setup
+## Использование
+Чтобы проект заработал:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+Установите npm-пакет с помощью команды:
 ```sh
-npm install
+$ npm i 
 ```
 
-### Compile and Hot-Reload for Development
 
+## Разработка
+
+### Требования
+Для установки и запуска проекта, необходим [NodeJS](https://nodejs.org/) v8+.
+
+### Установка зависимостей
+Для установки зависимостей, выполните команду:
+```sh
+$ npm i
+```
+
+### Запуск Development проекта
+Чтобы запустить проект для разработки, выполните команду:
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+## FAQ
 
-```sh
-npm run build
-```
+### Изменения данных 
+В data находятся моковые данные фильмов. Вы можете их заменить на свои и запускать проект.
 
-### Lint with [ESLint](https://eslint.org/)
+### Разработан проект для:
+<Сдача проекта преподователю>
 
-```sh
-npm run lint
-```
-# movie-catalog
+## To do
+- [x] Добавить поиск
+- [x] Убрать api и сделать моковые данные
+- [x] Развернуть по выбору фильма больше данных 
