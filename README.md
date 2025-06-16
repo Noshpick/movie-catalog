@@ -3,6 +3,9 @@
 
 ## Технологии
 - [Vue](https://vuejs.org)
+- [Vue Router](https://vuejs.org)
+- [Vite](https://vite.dev/)
+- [JavaScript ES6+](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://developer.mozilla.org/en-US/docs/Web/JavaScript&ved=2ahUKEwipmIee4fWNAxWhIBAIHYe3ExkQFnoECAoQAQ&usg=AOvVaw1Il_CfTbNi4CXc-0nBN5rP)
 
 ## Разработка
 
