@@ -1,5 +1,6 @@
 # Movie-Catalog
 Проект преднозначен для сдачи контрольной точки преподователю.
+Страница этого проекта https://noshpick.github.io/movie-catalog/
 
 ## Технологии
 - [Vue](https://vuejs.org)
