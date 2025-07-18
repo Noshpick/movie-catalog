@@ -7,6 +7,9 @@
         :key="movie.id"
         :movie="movie"
       />
+      <p v-if="filteredMovies.length === 0" class="no-results">
+        Данного фильма нет в нашей базе.
+      </p>
     </div>
   </div>
 </template>
@@ -39,5 +42,12 @@ const filteredMovies = computed(() =>
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+  font-size: 1.2em;
+  margin-top: 20px;
 }
 </style>
