@@ -4,7 +4,7 @@
       type="text"
       :value="modelValue"
       @input="$emit('update:modelValue', $event.target.value)"
-      placeholder="Поиск по названию"
+      :placeholder="$t('Search')"
     />
   </div>
 </template>

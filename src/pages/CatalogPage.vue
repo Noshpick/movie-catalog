@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <Language />
     <SearchBar v-model="searchQuery" />
     <div class="grid">
       <CatalogItem
@@ -8,7 +9,7 @@
         :movie="movie"
       />
       <p v-if="filteredMovies.length === 0" class="no-results">
-        Данного фильма нет в нашей базе.
+        {{ $t('noResults') }}
       </p>
     </div>
   </div>
@@ -17,6 +18,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 import { movies } from '../data/movies';
+import Language from '../components/Language.vue';
 import CatalogItem from '../components/CatalogItem.vue';
 import SearchBar from '../components/SearchBar.vue';
 

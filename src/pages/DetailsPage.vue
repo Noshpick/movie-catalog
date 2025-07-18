@@ -2,9 +2,9 @@
   <div class="info" v-if="movie">
     <h2>{{ movie.title }}</h2>
     <img :src="movie.image" alt="poster" />
-    <p><strong>Жанр:</strong> {{ movie.genre }}</p>
+    <p><strong>{{$t('Genre')}}:</strong> {{ movie.genre }}</p>
     <p class="movie_info"><strong>{{ movie.fullDescription }}</strong></p>
-    <button @click="$router.back()"> < Назад</button>
+    <button @click="$router.back()"> < {{$t('Back')}}</button>
   </div>
 </template>
 

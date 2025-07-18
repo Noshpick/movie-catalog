@@ -1,9 +1,14 @@
 <template>
+  <Language />
   <div class="home">
-    <h1>Добро пожаловать!</h1>
-    <button @click="$router.push('/catalog')">Перейти в каталог</button>
+    <h1> {{ $t('Welcome') }} </h1>
+    <button @click="$router.push('/catalog')">{{ $t('Catalog') }}</button>
   </div>
 </template>
+
+<script setup>
+import Language from '../components/Language.vue';
+</script>
 
 <style scoped>
 .home {
