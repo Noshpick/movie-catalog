@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <SearchBar v-model="searchQuery" />
     <div class="grid">
       <CatalogItem
@@ -27,9 +27,17 @@ const filteredMovies = computed(() =>
 </script>
 
 <style>
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  justify-content: center;
 }
 </style>
